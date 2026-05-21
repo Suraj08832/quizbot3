@@ -137,9 +137,9 @@ RATE_LIMIT_MAX_REQUESTS = 500  # Max requests per window per user
 SESSION_CLEANUP_INTERVAL = 3600  # Clean old sessions every hour
 SESSION_TIMEOUT = 3600  # Session expires after 1 hour of inactivity
 SCHEDULED_QUIZ_CHECK_INTERVAL = 60  # Check scheduled quizzes every 60 seconds
-POLL_QUESTION_MAX_LENGTH = 300
-POLL_OPTION_MAX_LENGTH = 95
-POLL_EXPLANATION_MAX_LENGTH = 200
+POLL_QUESTION_MAX_LENGTH = 3000
+POLL_OPTION_MAX_LENGTH = 950
+POLL_EXPLANATION_MAX_LENGTH = 2000
 TRIM_LENGTH = 80
 
 # ═══════════════════════════════════════════════════════════════════════════
